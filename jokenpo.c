@@ -10,7 +10,7 @@ int main(){
     printf("--- Jogo de Jokenpô ---\n");
     printf("Escolha uma opção:\n 1 = Pedra.\n 2 - Papel.\n 3 - Tesoura.\n");
     printf("Escolha: \n");
-    scanf("%d", jogador);
+    scanf("%d", &jogador);
 
     pc = rand() % 3 + 1;
 
@@ -41,7 +41,7 @@ int main(){
 
     
 
-    /* if (jogador == 1){
+    if (jogador == 1){
         if (pc == 1){
             printf("--- EMPATE ---\n");}
         else if (pc == 2){
@@ -63,9 +63,4 @@ int main(){
         else if (pc == 2){
             printf("--- O JOGADOR VENCEU ---\n");}
         else{
-            printf("--- EMPATE ---\n");}} */
-        
-
-
-
-}
+            printf("--- EMPATE ---\n");}}}
